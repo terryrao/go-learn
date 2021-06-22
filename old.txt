@@ -1,0 +1,16 @@
+goos: linux
+goarch: amd64
+pkg: github.com/terryrao/go-learn/performances
+cpu: Intel(R) Xeon(R) CPU E5-26xx v4
+BenchmarkFib20 	   34826	     35029 ns/op
+BenchmarkFib20 	   36126	     32581 ns/op
+BenchmarkFib20 	   30504	     34451 ns/op
+BenchmarkFib20 	   35720	     34538 ns/op
+BenchmarkFib20 	   35956	     33063 ns/op
+BenchmarkFib20 	   30873	     32750 ns/op
+BenchmarkFib20 	   36128	     34060 ns/op
+BenchmarkFib20 	   36069	     34460 ns/op
+BenchmarkFib20 	   36027	     32530 ns/op
+BenchmarkFib20 	   36193	     34456 ns/op
+PASS
+ok  	github.com/terryrao/go-learn/performances	15.289s
